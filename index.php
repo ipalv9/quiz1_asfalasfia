@@ -54,30 +54,30 @@
             <form action="proses.php" method="POST" enctype="multipart/form-data">
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">NIDN</label>
-    <input type="text" name="nama" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input type="text" name="nidn" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Nama Lengkap</label>
-    <input type="text" name="tempat" class="form-control" id="exampleInputPassword1">
+    <input type="text" name="nama" class="form-control" id="exampleInputPassword1">
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Rumpun</label>
         <select name="rumpun" id="" class="form-control">
             <option value="">-Pilih Rumpun-</option>
-            <option value="Islam">Komputer</option>
-            <option value="Kristen">Akuntansi</option>
-            <option value="Hindu">Manajemen</option>
-            <option value="Katolik">Perpajakan</option>
-            <option value="Buddha">Bisnis/option>
+            <option value="komputer">Komputer</option>
+            <option value="Akuntansi">Akuntansi</option>
+            <option value="Majajemen">Manajemen</option>
+            <option value="Perpajakan">Perpajakan</option>
+            <option value="Bisnis">Bisnis/option>
             </select>
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Tempat Lahir</label>
-    <input type="text" name="tempat" class="form-control" id="exampleInputPassword1">
+    <input type="text" name="tempat_lahir" class="form-control" id="exampleInputPassword1">
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Tanggal Lahir</label>
-    <input type="date" name="tanggal" class="form-control" id="exampleInputPassword1">
+    <input type="date" name="tanggal_lahir" class="form-control" id="exampleInputPassword1">
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Email</label>
